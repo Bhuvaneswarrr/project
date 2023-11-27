@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  my-react-app:
+    image: caps:latest
+    ports:
+      - "82:80"
