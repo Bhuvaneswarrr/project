@@ -9,5 +9,5 @@ elif [[ "$GIT_BRANCH" == "dev" ]]; then
 docker tag caps bhuvaneswarrr/dev
 docker push bhuvaneswarrr/dev
 else 
-  echo 'deployment failure have look"
+  echo "deployment failure have look"
 fi
